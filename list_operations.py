@@ -231,4 +231,8 @@ def sum_repeats(input_list):
 
     """
 
-    pass
+    sum = 0
+    for i in range(0,len(input_list)-1):
+        if input_list[i] == input_list[i+1]:
+            sum = sum + input_list[i]
+    return sum
