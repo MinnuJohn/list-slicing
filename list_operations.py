@@ -213,10 +213,11 @@ def indices_of_positive_numbers(input_list):
     [0, 2, 3, 6]
 
     """
-
-    pass
-
-
+    positive_index =[]
+    for index,element in enumerate(input_list):
+        if element > 0:
+            positive_index.append(index)
+    return positive_index    
 def sum_repeats(input_list):
     """
     Given a list of numbers, return the sum of all numbers that are the same as the 
