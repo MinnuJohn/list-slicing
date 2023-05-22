@@ -77,7 +77,7 @@ def last_five(input_list):
 
     """
 
-    return []
+    return input_list[-5:]
 
 
 def middle(input_list):
@@ -119,7 +119,7 @@ def inner_four_end(input_list):
 
     """
 
-    return []
+    return input_list
 
 
 def replace_head(input_list):
